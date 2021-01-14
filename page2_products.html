@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" type="text/css">
+    <title>Products</title>
+</head>
+<body>
+    <h1 class="text-center text-2xl text-white bg-blue-900 font-semibold">Below are some of the products we sell</h1>
+    
+    <div class="md:flex">
+        <div class="md:w-1/3 border-2 border-purple-500">
+            <p class="font-bold bg-green-400 text-center">Original Milk Bubble Tea</p>
+            <img class="h-96 w-96 w-full" src="Milk_Bubble_Tea.jpg" alt="Milk Bubble Tea">
+            <p class="p-3 font-serif text-center">A go-to classic that everyone enjoys</p>
+        </div>
+        <div class="md:w-1/3 border-2 border-purple-500  text-center" >
+            <p class="font-bold bg-green-400">Matcha Bubble Tea </p>
+            <img class="h-96 w-full" src="Matcha_Bubble_Tea.jpg" alt="Matcha Bubble Tea">
+            <p class="p-3 font-serif text-center">A caffeine-fueled delite thats for the more experienced B.T lovers</p>
+        </div>
+        <div class="md:w-1/3 border-2 border-purple-500  text-center">
+            <p class="font-bold bg-green-400">Mango Bubble Tea </p>
+            <img class="h-96 w-96 w-full" src="Mango_Bubble_Tea.jpg" alt="Mango Bubble Tea">
+            <p class="p-3 font-serif text-center">When you want desert without judgement</p>
+        </div>
+    </div>
+    <div>
+        <h1 class="font-bold py-2">Tell us what other flavors you would like to see!</h1>
+        <form netlify>
+            <label class="block mt-4 font-bold" for="name">What is your name?</label>
+            <input class="p-2 w-64 border border-gray-400 rounded shadow-xl focus:outline-none focus:ring-purple-500
+            focus:border-purple-500" type="text" id="name" name="name">
+          
+            <p>
+                <label class="block mt-4 font-bold" for="favorite-color">What bubble tea flavor do you want to see next?</label>
+                <input class="p-2 w-64 border border-gray-400 rounded shadow-xl focus:outline-none focus:ring-purple-500
+                focus:border-purple-500" type="text" id="new-menu-item" name="newMenuItem"></p>
+
+            <p>
+                <button class="block mt-4 text-white bg-purple-500 rounded px-4 py-2">Submit form!</button>
+            </p>
+          </form>
+    </div>
+    
+    <p>
+        <h3 class="italic font-semibold text-sm text-red-800"> <a href="index.html">Back to homepage</a></h3>
+    </p> 
+    
+</body>
+</html>
